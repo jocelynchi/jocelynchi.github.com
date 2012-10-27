@@ -159,8 +159,11 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Lucida Sans Unicode", Arial, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: minion-pro-caption, "Minion Pro Caption", "Minion Pro", "Garamond Premier Pro Caption", "Garamond Premier Pro", "Hoefler Text", Constantia, Garamond, Palatino, "Palatino Linotype", Baskerville, "Book Antiqua", Georgia, "Century Schoolbook L", serif;
+    font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "liga=1, swsh=0, cswh=0";
+    text-rendering: optimizeLegibility;
+  font-size: 16px;
   line-height: 20px;
   color: #000;
   background-color: #ffffff;
