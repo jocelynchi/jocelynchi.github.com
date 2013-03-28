@@ -4569,15 +4569,16 @@ input[type="submit"].btn.btn-mini {
   color: #ffffff;
 }
 
+/*** Navigation Menu Colors ***/
 .navbar-inverse .navbar-inner {
   background-color: #ffffff;
-  background-image: -moz-linear-gradient(top, #eee, #ccc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ccc), to(#eee));
-  background-image: -webkit-linear-gradient(top, #ccc, #eee);
-  background-image: -o-linear-gradient(top, #ccc, #eee);
-  background-image: linear-gradient(to bottom, #ccc, #eee);
+  background-image: -moz-linear-gradient(top, #fff, #eee);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#eee));
+  background-image: -webkit-linear-gradient(top, #fff, #eee);
+  background-image: -o-linear-gradient(top, #fff, #eee);
+  background-image: linear-gradient(to bottom, #fff, #eee);
   background-repeat: repeat-x;
-  border-color: #eee;
+  border-color: #fff;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 
